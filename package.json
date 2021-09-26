@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@codeyourfuture/eslint-config-standard": "^2.0.3",
+    "nodemon": "^2.0.12",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -15,6 +16,7 @@
     "build": "react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "eject": "react-scripts eject",
+    "dev": "nodemon",
     "lint": "eslint ."
   },
   "eslintConfig": {
